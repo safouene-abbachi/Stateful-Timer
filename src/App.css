@@ -1,0 +1,37 @@
+.time {
+  background-color: #f2f1ed;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 56px;
+}
+.T {
+  left: 0;
+  right: 0;
+
+  font: normal 5.94em/107px "Lato";
+  font-weight: 700;
+  color: #de4848;
+}
+.T p {
+  font-weight: 100;
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(76, 0, 255);
+}
+.Buttons {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+button {
+  width: 200px;
+  height: 70px;
+
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+button:hover {
+  background-color: green;
+}
